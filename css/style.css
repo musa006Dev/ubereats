@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Roboto",sans-serif;
+}
+#header{
+    padding: 30px 0;
+
+
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    font-size:18px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 8px;
+}
+.header-logo span{
+    color: yellowgreen;
+    font-weight: 300;
+}
+.header-end{
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+.header-end button{
+    width: 78px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    font-weight: 500;
+   font-size: 13px;
+    color: #1D1D1D;
+}
+.header-end a{
+    font-size: 28px;
+    color: black;
+}
+
+.product-search input{
+    width: 100%;
+    padding: 8px 0;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    border:none;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.93);
+    border-bottom: 1px solid gray;
+}
+.product-title{
+    padding:30px 0;
+}
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-card{
+    padding: 50px 0;
+
+}
+
+
+#uber{
+    background: #262626;
+    padding: 50px;
+}
+hr{
+
+    width: 100%;
+    height: 1px;
+
+    top: 1584px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+.select h1{
+    padding: 30px   ;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+
+
+
+}
+.select-text{
+    width: 227px;
+    height: 40px;
+    background: #3B3B3B;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.select a{
+    color: #FFFFFF;
+    padding-left: 30px;
+}
+.footer-text h1{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    padding: 16px;
+}
+.uber-A{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.text-two h1{
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    padding: 16px;
+}
+
+.text h1{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 13px;
+    color: #FFFFFF;
+
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
